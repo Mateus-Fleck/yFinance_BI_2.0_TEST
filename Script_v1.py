@@ -6,9 +6,6 @@ def carregar_dados(ticker):
     df['ticker'] = ticker.split(".")[0]
     return df
 
-
-# Banking Analysis - TOP 25 BR
-
 b3braislbolsabalcao = carregar_dados("B3SA3.SA")
 caixaeconomica = carregar_dados("CXSE3.SA")
 bancodobrasil = carregar_dados("BBAS3.SA")
