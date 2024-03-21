@@ -1,4 +1,4 @@
-import yfinance as yf
+import yfinance as yf   
 
 def carregar_dados(ticker):
     df = yf.Ticker(ticker).history("10y")

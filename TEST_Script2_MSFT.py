@@ -2,7 +2,7 @@ import yfinance as yf
 
 msft = yf.Ticker("MSFT")
 
-# obter todas as informações da ação
+# obter todas as informações da ação da Microsoft
 msft.info
 
 # obter dados de mercado históricos
